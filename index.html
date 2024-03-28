@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Feel the music</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="" class="icon" style="color: rgb(29, 185, 84);"><i class="fa-brands fa-spotify" style=" font-size: 25px"></i><span class="navNames" style="font-weight: bolder; font-size: larger;">Spotify</span></a>
+            <a href="" class="icon "><i class="fa-solid fa-house"></i><span class="navNames">Home</span></a>
+            <a href="" class="icon"><i class="fa-solid fa-magnifying-glass"></i><span class="navNames">Search</span></a>
+            <a href="" class="icon"><i class="fa-solid fa-list"></i><span class="navNames">Your Library</span></a>
+            <a href="" class="icon"><i class="fa-solid fa-circle-info"></i><span class="navNames">About</span></a>
+            </div>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1 style="color: aliceblue; padding-left: 20px;padding-top: 0px;font-size: 20px;"><b>Best of Noor Chahal Covers</b></h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="0" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="1" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="2" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="3" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="4" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="5" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tu_aisa_kaise_hai_cover.jpg" alt="1">
+                    <span class="songName">Tu Aisa Kaise Hai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="font-size: 15px;"><span class="time"></span><i id="6" style="margin-right: 6px; margin-left: 6px; font-size: 18px; margin-bottom: 2px;" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="belowRange">
+            <div class="songInfo">
+                <div>
+                    <img id="nowPlayingImg" src="covers/cover1.jpeg" alt="" width="40px">
+                </div>
+                <img id="soundWave" src="sound_wave_spotify.gif" width="90px" height="20px" style="margin-top: 20px;">
+                <div id="currentSongName" style="font-size:22px; ">
+                    <b>Band Darwaze</b></div><br>
+                </div>
+            <div class="controlIcons">
+                <i style="margin-right: 11px; margin-left: 11px; font-size: 23px;" class="fa-solid fa-shuffle"></i>
+                <i style="margin-right: 11px; margin-left: 11px; font-size: 23px;" id="previous" class="fa-solid fa-backward-step"></i>
+                <i style="margin-right: 11px; margin-left: 11px; font-size: 23px;" id="masterPlay" class="fa-solid fa-circle-play"></i>
+                <i style="margin-right: 11px; margin-left: 11px; font-size: 23px;" id="next" class="fa-solid fa-forward-step"></i>
+                <i style="margin-right: 11px; margin-left: 11px; font-size: 23px;" id="replay" class="fa-solid fa-arrow-rotate-left"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

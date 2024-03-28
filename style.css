@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(38, 39, 38);
+}
+.navbar{
+    font-family: monospace;
+    font-size:15px;
+    display: flex;
+    align-items: baseline;
+}
+.icon{
+    background-color:black;
+    color: rgb(29, 185, 84);
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 25px  ;
+}
+nav{
+    background-color:black ;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 6px;
+    border-radius:5px;
+}
+.bottom{
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    bottom: 0;
+    height: 75px;
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    justify-content:last baseline;
+    align-items: center;
+    color: white;
+    border-color: rgb(38, 39, 38);
+    left:0;
+}
+.navNames{
+    color:aliceblue;
+    padding-right: 7px;
+    padding-left: 4px;
+    font-weight: lighter;
+}
+#myProgressBar{
+    width: 100vw;
+    height: 5px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.controlIcons{
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 9px;
+    height: 14px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+.control{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container{
+    height: 72vh;
+    width: 70%;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size:smaller;
+    display:flex;
+    margin: 20px auto;
+    border-radius: 9px;
+    padding: 10px;
+    background-image: url(mic_bg.jpg);
+    background-size: cover;
+    align-self: center;
+    background-position: center;
+    border-right: 500px;
+    border-left: 500px;
+    border-color: black;
+}
+.songItemContainer{
+    margin-top: 20px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 170%;
+    color: black;
+    margin:8px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 17px;
+    font-size:medium;
+    font-family:cursive;
+    border-radius: 4px;
+
+
+}
+.songItem img{
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+    padding: 4px;
+
+}
+.timeStamp{
+    margin: 0 20px;
+    cursor: pointer;
+    flex-direction: row;
+}
+.songInfo{
+    position: absolute;
+    left: 2vh;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    font-family: sans-serif;
+}
+#nowPlayingImg{
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-left: 0px;
+    padding-bottom: 30px;
+}   
+#soundWave{
+    opacity: 0;
+    transform: opacity 0.2s ease-in;
+}
+#currentSongName{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family:cursive;
+}
